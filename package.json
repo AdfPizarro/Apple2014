@@ -1,0 +1,25 @@
+{
+  "name": "apple2014",
+  "version": "1.0.0",
+  "description": "Apple 2014 gradient",
+  "main": "stylelint.config.js",
+  "dependencies": {
+    "stylelint": "^13.3.3",
+    "stylelint-config-recommended": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "lintcss": "stylelint assets/css",
+    "lintcss:fix": "stylelint --fix assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdfPizarro/Apple2014.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdfPizarro/Apple2014/issues"
+  },
+  "homepage": "https://github.com/AdfPizarro/Apple2014#readme"
+}
