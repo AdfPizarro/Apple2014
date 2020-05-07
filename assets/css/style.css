@@ -2,7 +2,7 @@ body {
   margin-top: 0px;
 }
 
-
+/* linear-gradient( 0deg, rgb(100, 100, 100), rgb(90, 90, 90) 50%, rgb(115, 115, 115) 50%, rgb(150, 150, 150) ); */
 
 .main-nav {
   margin-top:0px;
@@ -14,35 +14,88 @@ a {
   color: #08c;
 }
 
-.test{
-  flex-direction: row;
-  padding:0px;
-  background: linear-gradient( 0deg, rgb(100, 100, 100), rgb(90, 90, 90) 50%, rgb(115, 115, 115) 50%, rgb(150, 150, 150) );
-    border-radius: 3px 3px 3px 3px;
-}
 
 li {
   text-decoration: none;
   list-style: none;
-  border-right: solid 1px ;
-  border-color: #ccc8c8;
-  padding: 0px 10px;
 
 }
+
+
+input {
+  background-color: rgba(0, 0, 0, 0);
+  outline: none;
+  border: none;
+  margin-right: 20px;
+  color: white;
+  width: 100px;
+  transition: ease-in-out, width .35s ease-in-out;
+}
+
+input:focus{
+  width: 130px;
+  background-color: white;
+}
+
+
+li img{
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+nav li{
+  border-right: solid 1px #6e6e6e;
+  background: linear-gradient( 0deg, rgb(100, 100, 100), rgb(90, 90, 90) 50%, rgb(115, 115, 115) 50%, rgb(150, 150, 150) );
+}
+
+nav li:hover {
+  background: linear-gradient( 0deg, rgb(50, 50, 50), rgb(40, 40, 40) 50%, rgb(65, 65, 65) 50%, rgb(100, 100, 100) );
+}
+
+.radious-left{
+  border-radius: 5px 0 0 5px;
+}
+
+.radious-rigth{
+  border-radius: 0px 5px 5px 0px;
+}
+
+.input-container{
+  margin: 4px 10px 0px 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, .2);
+  box-shadow: inset 0 0 6px #333;
+
+}
+
+.focus{
+  background-color: rgb(255, 255, 255);
+  box-shadow: none;
+}
+
+
 
 #apple{
   background: url('../images/globalnav_text.png') no-repeat;
   background-position: center 0%;
   width: 100px;
   height: 30px;
+
 }
+
+#apple:hover{
+  background: url('../images/globalnav_text.png') no-repeat
+  background-position: center 0%;
+  width: 100px;
+  height: 30px;
+}
+
 
 #store{
   background: url('../images/globalnav_text.png') no-repeat;
   background-position: center -30px;
   width: 100px;
   height: 30px;
-  border: solid 1px black;
 }
 
 #mac{
@@ -50,7 +103,6 @@ li {
   background-position: center -60px;
   width: 100px;
   height: 30px;
-  border: solid 1px black;
 }
 
 #ipod{
@@ -58,7 +110,6 @@ li {
   background-position: center -90px;
   width: 100px;
   height: 30px;
-  border: solid 1px black;
 }
 
 
@@ -67,7 +118,6 @@ li {
   background-position: center -120px;
   width: 100px;
   height: 30px;
-  border: solid 1px black;
 }
 
 #ipad{
@@ -75,7 +125,6 @@ li {
   background-position: center -150px;
   width: 100px;
   height: 30px;
-  border: solid 1px black;
 }
 
 #itunes{
@@ -83,7 +132,6 @@ li {
   background-position: center -180px;
   width: 100px;
   height: 30px;
-  border: solid 1px black;
 }
 
 #support{
@@ -91,13 +139,12 @@ li {
   background-position: center -210px;
   width: 100px;
   height: 30px;
-  border: solid 1px black;
 }
 #search{
 
   width: 100px;
   height: 30px;
-  border: solid 1px black;
+  border-radius: 5px 0 0 5px;
 }
 
 .picture{
@@ -139,7 +186,16 @@ footer{
   margin: auto;
 }
 
+footer li{
+  padding: 0px 10px;
+}
+
+footer a:hover{
+  text-decoration: underline;
+}
+
 .flex { display: flex;}
 .justify-center { justify-content: center;}
 .justify-space { justify-content: space-between; }
 .align-center { align-items: center;}
+.hide {display: none;}
