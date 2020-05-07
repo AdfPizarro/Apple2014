@@ -5,13 +5,9 @@ body {
 
 
 .main-nav {
-
-
-
   margin-top:0px;
 
 }
-
 
 a {
   text-decoration: none;
@@ -21,12 +17,16 @@ a {
 .test{
   flex-direction: row;
   padding:0px;
+  background: linear-gradient( 0deg, rgb(100, 100, 100), rgb(90, 90, 90) 50%, rgb(115, 115, 115) 50%, rgb(150, 150, 150) );
+    border-radius: 3px 3px 3px 3px;
 }
 
 li {
   text-decoration: none;
   list-style: none;
-  align-content: space-between;
+  border-right: solid 1px ;
+  border-color: #ccc8c8;
+  padding: 0px 10px;
 
 }
 
@@ -35,7 +35,6 @@ li {
   background-position: center 0%;
   width: 100px;
   height: 30px;
-  border: solid 1px black;
 }
 
 #store{
@@ -95,8 +94,7 @@ li {
   border: solid 1px black;
 }
 #search{
-  background: url('../images/globalnav_text.png') no-repeat;
-  background-position: center -210px;
+
   width: 100px;
   height: 30px;
   border: solid 1px black;
