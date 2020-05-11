@@ -24,12 +24,12 @@ input {
   border: none;
   margin-right: 20px;
   color: white;
-  width: 100px;
+  width: 50%;
   transition: ease-in-out, width 0.35s ease-in-out;
 }
 
 input:focus {
-  width: 130px;
+  width: 60%;
   background-color: white;
   color: #333;
 }
@@ -72,8 +72,8 @@ li img {
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.2);
   box-shadow: inset 0 0 6px #333;
-  width: auto;
-  height: auto;
+  width: 166px;
+  height: 20px;
 }
 
 .focus {
@@ -149,6 +149,7 @@ li div {
 .description {
   margin-top: 5px;
   background: url('../images/your_verse_subhead_small.png')  center 0% no-repeat;
+  height: 82px;
 }
 
 .link a {
@@ -166,7 +167,7 @@ li div {
 
 .container {
   background: url('../images/your_verse_hero.jpg')  50% 100% no-repeat;
-  width: 1440px;
+  max-width: 1440px;
   height: 538px;
   margin: auto;
   margin-top: 0;
@@ -175,11 +176,11 @@ li div {
 /* Aside section */
 aside {
   margin: 0 auto;
-  width: 1440px;
+  max-width: 1440px;
 }
 
 aside img {
-  width: 360px;
+  width: 100%;
 }
 
 /* Footer */
