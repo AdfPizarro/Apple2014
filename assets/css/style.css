@@ -1,0 +1,207 @@
+/* Main styles */
+
+body {
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #08c;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+h1 {
+  margin: 0;
+}
+
+input {
+  background-color: rgba(0, 0, 0, 0);
+  outline: none;
+  border: none;
+  margin-right: 20px;
+  color: white;
+  width: 50%;
+  transition: ease-in-out, width 0.35s ease-in-out;
+}
+
+input:focus {
+  width: 60%;
+  background-color: white;
+  color: #333;
+}
+
+li img {
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+/*  Nav Bar */
+
+.main-nav {
+  margin-top: 70px;
+}
+
+.footer-links li {
+  padding: 0 10px;
+}
+
+.nav-links li {
+  padding: 4px 0;
+  border-right: solid 1px #6e6e6e;
+  background: linear-gradient(180deg, rgb(100, 100, 100), rgb(90, 90, 90) 50%, rgb(115, 115, 115) 50%, rgb(150, 150, 150));
+}
+
+.nav-links li:hover {
+  background: linear-gradient(180deg, rgb(50, 50, 50), rgb(40, 40, 40) 50%, rgb(65, 65, 65) 50%, rgb(100, 100, 100));
+}
+
+.radious-left {
+  border-radius: 5px 0 0 5px;
+}
+
+.radious-rigth {
+  border-radius: 0 5px 5px 0;
+}
+
+.input-container {
+  margin: 4px 10px 0 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: inset 0 0 6px #333;
+  width: 166px;
+  height: 20px;
+}
+
+.focus {
+  background-color: rgb(255, 255, 255);
+  box-shadow: none;
+}
+
+/* Nav Links section */
+
+li div {
+  width: 100px;
+  height: 30px;
+}
+
+#apple {
+  background: url('../images/globalnav_text.png') no-repeat;
+  background-position: center 0%;
+}
+
+#apple:hover {
+  background: url('../images/globalnav_text.png') no-repeat;
+  background-position: center 0%;
+}
+
+#store {
+  background: url('../images/globalnav_text.png') no-repeat;
+  background-position: center -30px;
+}
+
+#mac {
+  background: url('../images/globalnav_text.png') no-repeat;
+  background-position: center -60px;
+}
+
+#ipod {
+  background: url('../images/globalnav_text.png') no-repeat;
+  background-position: center -90px;
+}
+
+#iphone {
+  background: url('../images/globalnav_text.png') no-repeat;
+  background-position: center -120px;
+}
+
+#ipad {
+  background: url('../images/globalnav_text.png') no-repeat;
+  background-position: center -150px;
+}
+
+#itunes {
+  background: url('../images/globalnav_text.png') no-repeat;
+  background-position: center -180px;
+}
+
+#support {
+  background: url('../images/globalnav_text.png') no-repeat;
+  background-position: center -210px;
+}
+
+/* Main image section */
+
+.picture {
+  display: flex;
+  justify-content: center;
+}
+
+.verse {
+  margin-top: 15px;
+  background: url('../images/your_verse_title_small.png')  center 0% no-repeat;
+  height: 80px;
+}
+
+.description {
+  margin-top: 5px;
+  background: url('../images/your_verse_subhead_small.png')  center 0% no-repeat;
+  height: 82px;
+}
+
+.link a {
+  margin-top: 30px;
+  background: url('../images/cta_your_verse_27pt.png')  center 0% no-repeat;
+  width: 960px;
+  height: 32px;
+}
+
+.link a:hover {
+  background: url('../images/cta_your_verse_27pt.png')  center 100% no-repeat;
+  width: 960px;
+  height: 32px;
+}
+
+.container {
+  background: url('../images/your_verse_hero.jpg')  50% 100% no-repeat;
+  max-width: 1440px;
+  height: 538px;
+  margin: auto;
+  margin-top: 0;
+}
+
+/* Aside section */
+aside {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+aside img {
+  width: 100%;
+}
+
+/* Footer */
+
+footer {
+  width: 980px;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  color: #6e6e6e;
+  font-size: 10px;
+  line-height: 1.2;
+  margin: auto;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* Helper classes */
+
+.flex { display: flex; }
+.justify-center { justify-content: center; }
+.justify-space { justify-content: space-between; }
+.align-center { align-items: center; }
+.hide { display: none; }
